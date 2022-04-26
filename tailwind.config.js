@@ -14,6 +14,7 @@ module.exports = {
     extend: {
       colors: {
         transparent: 'transparent',
+        'meet-our-team-bg': '#282828',
         primary: {
           300: "#9870D7",
           500: "#38197A",

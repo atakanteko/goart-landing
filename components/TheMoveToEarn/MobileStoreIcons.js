@@ -5,7 +5,7 @@ import IconDisplay from "./IconDisplay";
 
 
 const MobileStoreIcons = () => {
-    const [screenSize, setScreenSize] = useState(null);
+    const [screenSize, setScreenSize] = useState(907);
     useEffect(()=> {
         window.addEventListener("resize", getScreenSize);
         return () => {
