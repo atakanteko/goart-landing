@@ -1,5 +1,5 @@
 import Image from "next/image";
-import moveToEarn from "../../public/assets/images/move-to-earn-home-page-text.svg";
+import moveToEarn from "../../assets/images/move-to-earn-home-page-text.svg";
 
 const MoveToEarnText = () => {
     return (

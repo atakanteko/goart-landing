@@ -1,4 +1,4 @@
-import playStoreIcons from "../../public/static/play-store-icons";
+import playStoreIcons from "../../static/play-store-icons";
 import Image from "next/image";
 import { memo, useEffect, useState } from "react";
 import log from "tailwindcss/lib/util/log";
