@@ -4,7 +4,7 @@ import moveToEarn from "../../public/assets/images/move-to-earn-home-page-text.s
 const MoveToEarnText = () => {
     return (
         <>
-            <div className="mt-342 sm:mt-10">
+            <div className="mt-342 sm:mt-20">
                 <Image src={moveToEarn} alt="Move To Earn" className="mt-3" />
             </div>
         </>

@@ -7,6 +7,7 @@ module.exports = {
     screens: {
       'sm': {'min': '0px', 'max': '375px'},
       'md': {'min': '376px', 'max': '568px'},
+      'lg': {'min': '569px', 'max': '905px'},
       'mobile': { 'raw': '(max-width: 375px)' },
       'mobile-md': { 'raw': '(max-width: 568px) (min-width: 376px)',  }
     },
