@@ -10,6 +10,7 @@ const WaitList = () => {
                             xl:w-waitList-xl xl:h-waitList-xl
                             md:px-3 md:py-6
                             lg:px-6 lg:py-6
+                            xl:mb-waitList-margin-bottom
                             ">
 
                 <span className="text-white text-base font-semibold

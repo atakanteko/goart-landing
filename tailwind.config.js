@@ -44,6 +44,7 @@ module.exports = {
         DEFAULT: "0.8rem",
       },
       spacing: {
+        "waitList-margin-bottom":"12.6875rem",
         3: "0.813rem",
         4: "1.063rem",
         192: "12rem",

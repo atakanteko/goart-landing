@@ -22,7 +22,6 @@ const Avatar = () => {
                 })}
             </div>
             <WaitList />
-            sdfsdffsdafsa
         </>
     )
 }
