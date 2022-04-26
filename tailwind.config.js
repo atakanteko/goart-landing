@@ -8,6 +8,7 @@ module.exports = {
       'sm': {'min': '0px', 'max': '375px'},
       'md': {'min': '376px', 'max': '568px'},
       'lg': {'min': '569px', 'max': '905px'},
+      'xl': {'min': '906px'},
       'mobile': { 'raw': '(max-width: 375px)' },
       'mobile-md': { 'raw': '(max-width: 568px) (min-width: 376px)',  }
     },
@@ -65,11 +66,20 @@ module.exports = {
         'inter': ['"Inter"', 'sans-serif']
       },
       width: {
-        'waitList': '20.3125rem',
+        'waitList-sm': '20.3125rem',
+        'waitList-width': '96rem',
+        'waitList-input-width': '18.8125rem',
+        'waitList-input-width-large': '30.625rem',
+
         'waitList-btn': '9.5625rem',
+        'waitList-btn-xl': '30.625rem',
+        'waitList-btn-sm': '18.8125rem',
+        'waitList-btn-md': '25rem',
+        'waitList-btn-lg': '40rem',
       },
       height: {
-        'waitList': '20.3125rem',
+        'waitList-sm': '20.3125rem',
+        'waitList-input-height': '3.125rem',
         'waitList-btn': '3.125rem',
       }
     }
