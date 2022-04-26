@@ -19,13 +19,13 @@ const MobileStoreIcons = () => {
         return <IconDisplay width={150} height={40} type="sm"/>
     } else if (screenSize < 568) {
         return (
-            <div className="mt-20">
+            <div className="mt-40">
                 <IconDisplay width={200} height={50} type="md"/>
             </div>
         )
     } else if (screenSize < 906) {
         return (
-            <div className="mt-20">
+            <div className="mt-40">
                 <IconDisplay width={200} height={50} type="lg"/>
             </div>
         )
