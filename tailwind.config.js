@@ -64,6 +64,14 @@ module.exports = {
       fontFamily: {
         'inter': ['"Inter"', 'sans-serif']
       },
+      width: {
+        'waitList': '20.3125rem',
+        'waitList-btn': '9.5625rem',
+      },
+      height: {
+        'waitList': '20.3125rem',
+        'waitList-btn': '3.125rem',
+      }
     }
   },
   plugins: [],
