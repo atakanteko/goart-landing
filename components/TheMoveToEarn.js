@@ -7,7 +7,7 @@ export const TheMoveToEarn = () => {
     return (
         <div className={`sm:bg-top sm:bg-resp-home-cover sm:px-6
                          md:bg-right md:bg-home md:px-6
-                         px-2 h-screen bg-cover bg-home-cover relative overflow-hidden`}>
+                         px-2 h-screen bg-cover bg-[url('../public/assets/images/move-to-earn-cover.png')] relative overflow-hidden`}>
             <div className="sm:mx-1 sm:flex sm:flex-col
                             md:mx-1 md:flex md:flex-col
                             mx-192">
