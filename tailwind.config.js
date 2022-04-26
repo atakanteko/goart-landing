@@ -45,6 +45,7 @@ module.exports = {
       },
       spacing: {
         "waitList-margin-bottom":"12.6875rem",
+        "waitList-social-icons-margin-right":"1.700rem",
         3: "0.813rem",
         4: "1.063rem",
         192: "12rem",

@@ -1,6 +1,7 @@
 import teamAvatar from "../../public/static/team-avatar";
 import Image from "next/image";
 import WaitList from "./WaitList";
+import SocialFooter from "./SocialFooter";
 
 const Avatar = () => {
     return(
@@ -22,6 +23,7 @@ const Avatar = () => {
                 })}
             </div>
             <WaitList />
+            <SocialFooter />
         </>
     )
 }
