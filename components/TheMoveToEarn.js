@@ -6,6 +6,7 @@ import MoveToEarnText from './TheMoveToEarn/MoveToEarnText';
 export const TheMoveToEarn = () => {
     return (
         <div className={`sm:bg-top sm:bg-resp-home-cover sm:px-6
+                         xl:bg-resp-home-cover
                          md:bg-right md:bg-home md:px-6
                          px-2 h-screen bg-cover bg-home-cover relative overflow-hidden`}>
             <div className="sm:mx-1 sm:flex sm:flex-col
