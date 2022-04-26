@@ -16,7 +16,11 @@ const MobileStoreIcons = () => {
         setScreenSize(window.innerWidth);
     }
     if (screenSize < 376) {
-        return <IconDisplay width={150} height={40} type="sm"/>
+        return (
+            <div className="mt-342">
+                <IconDisplay width={150} height={40} type="sm"/>
+            </div>
+        )
     } else if (screenSize < 568) {
         return (
             <div className="mt-40">
