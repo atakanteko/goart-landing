@@ -4,14 +4,22 @@ const WaitList = () => {
         <div className="sm:mt-5">
             <div className="bg-gradient-to-r from-neutral-500 to-neutral-700
                             flex flex-col items-center
-                            rounded-xl px-3 py-6
+                            rounded-xl
+                            px-3 py-6
                             sm:w-waitList-sm sm:h-waitList-sm
-                            md:px-3 md:py-6">
+                            xl:w-waitList-xl xl:h-waitList-xl
+                            md:px-3 md:py-6
+                            lg:px-6 lg:py-6
+                            ">
 
-                <span className="text-white text-base font-semibold">Join Waitlist</span>
+                <span className="text-white text-base font-semibold
+                                 xl:font-extrabold xl:text-4xl xl:mt-6
+                                  ">
+                    Join Waitlist
+                </span>
                 <p className="mt-6 text-white text-center text-sm font-normal
                               lg:px-16 lg:text-center
-                              xl:px-16 lg:text-center
+                              xl:px-16 xl:text-center xl:w-waitList-text-xl xl:text-lg xl:font-normal xl:text-meet-our-team-name-color
                               ">
                     Sagittis scelerisque nulla cursus in enim consectetur quam. Dictum urna sed consectetur neque tristique pellentesque.
                 </p>
@@ -35,11 +43,24 @@ const WaitList = () => {
                                       md:w-waitList-input-width
                                       lg:w-waitList-input-width-large
                                       xl:w-waitList-input-width-large
-                                      xl:
+
                                       lg:mr-8
                                       xl:mr-8
                                       "/>
-                    <button className="mt-6 w-waitList-btn h-waitList-btn text-white font-medium text-base text-center px-6 py-3.5 bg-primary-500 rounded-md">JOIN</button>
+                    <button className="mt-6
+                                       w-waitList-btn
+                                       h-waitList-btn
+                                       text-white
+                                       font-medium
+                                       text-base
+                                       text-center
+                                       px-6
+                                       py-3.5
+                                       bg-primary-500
+                                       rounded-md
+                                       xl:w-waitList-input-xl
+
+                                       ">JOIN</button>
                 </div>
             </div>
         </div>

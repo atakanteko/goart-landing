@@ -67,6 +67,12 @@ module.exports = {
       },
       width: {
         'waitList-sm': '20.3125rem',
+        'waitList-md': '20.3125rem',
+        'waitList-xl': '95rem',
+        'waitList-text-xl': '43.75rem',
+        'waitList-input-xl': '14.375rem',
+
+
         'waitList-width': '96rem',
         'waitList-input-width': '18.8125rem',
         'waitList-input-width-large': '30.625rem',
@@ -79,6 +85,7 @@ module.exports = {
       },
       height: {
         'waitList-sm': '20.3125rem',
+        'waitList-xl': '25.625rem',
         'waitList-input-height': '3.125rem',
         'waitList-btn': '3.125rem',
       }
