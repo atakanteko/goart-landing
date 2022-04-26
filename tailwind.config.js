@@ -53,9 +53,9 @@ module.exports = {
         "mobile-icons-responsive-margin-right": "1.9725rem",
       },
       backgroundImage: {
-        "home-cover": 'url("../assets/images/move-to-earn-cover.png")',
-        "resp-home-cover": 'url("../assets/images/resp-home-bg.png")',
-        "section-two-bg-cover": 'url("../assets/images/second-section-bg-cover.png")',
+        "home-cover": 'url("../public/assets/images/move-to-earn-cover.png")',
+        "resp-home-cover": 'url("../public/assets/images/resp-home-bg.png")',
+        "section-two-bg-cover": 'url("../public/assets/images/second-section-bg-cover.png")',
       },
       backgroundPosition: {
         "top-right-70": "top 70px right"

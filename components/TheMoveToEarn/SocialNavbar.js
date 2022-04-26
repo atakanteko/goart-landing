@@ -1,6 +1,6 @@
 import { memo } from "react";
 import Link from "next/link";
-import socialIcons from "../../static/social-icons";
+import socialIcons from "../../public/static/social-icons";
 
 const SocialNavbar = () => {
     return (

@@ -1,7 +1,7 @@
 import { memo } from "react";
 import Image from "next/image";
 import Link from "next/link";
-import logo from "../../assets/images/goart-logo.svg";
+import logo from "../../public/assets/images/goart-logo.svg";
 
 
 const Logo = () => {
