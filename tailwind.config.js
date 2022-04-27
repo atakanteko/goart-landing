@@ -59,6 +59,7 @@ module.exports = {
       backgroundImage: {
         "home-cover": 'url("../public/assets/images/move-to-earn-cover.png")',
         "purple-bicycle": 'url("../public/assets/images/purple-bicycle-background.png")',
+        "about-us-mobile": 'url("../public/assets/images/about-us.png")',
         "resp-home-cover": 'url("../public/assets/images/resp-home-bg.png")',
         "section-two-bg-cover": 'url("../public/assets/images/second-section-bg-cover.png")',
       },
@@ -74,7 +75,7 @@ module.exports = {
         'waitList-xl': '95rem',
         'waitList-text-xl': '43.75rem',
         'waitList-input-xl': '14.375rem',
-
+        'about-btn-mobile-width': '9.4375rem',
 
         'waitList-width': '96rem',
         'waitList-input-width': '18.8125rem',
@@ -91,6 +92,7 @@ module.exports = {
         'waitList-xl': '25.625rem',
         'waitList-input-height': '3.125rem',
         'waitList-btn': '3.125rem',
+        'about-btn-mobile-height': '2.625rem',
       }
     }
   },
