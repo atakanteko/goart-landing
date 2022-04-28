@@ -62,7 +62,7 @@ module.exports = {
       backgroundImage: {
         "home-cover": 'url("../public/assets/images/move-to-earn-cover.png")',
         "purple-bicycle": 'url("../public/assets/images/background-image-second-page-mobile.png")',
-        "about-us-new-bg": 'url("../public/assets/images/about-us-new-bg.png")',
+        "about-us-new-bg": 'url("/assets/images/about-us-new-bg.png")',
         "about-us-mobile": 'url("../public/assets/images/about-us-mobile.png")',
         "resp-home-cover": 'url("../public/assets/images/resp-home-bg.png")',
         "section-two-bg-cover": 'url("/assets/images/second-section-bg-cover.png")',
