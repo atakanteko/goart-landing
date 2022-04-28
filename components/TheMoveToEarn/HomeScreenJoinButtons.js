@@ -1,4 +1,3 @@
-import homeScreenJoinButtons from "../../public/static/home-screen-join-buttons";
 import Image from "next/image";
 import { memo, useEffect, useState } from "react";
 import IconDisplay from "./IconDisplay";
