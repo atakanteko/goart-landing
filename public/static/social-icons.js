@@ -8,16 +8,17 @@ const socialIcons = [
         url: "/facebook"
     },
     {
+        title: <AiOutlineInstagram size={24} />,
+        url: "/instagram"
+    },
+
+    {
         title: <AiOutlineTwitter size={24} />,
         url: "/twitter"
     },
     {
-        title: <AiOutlineInstagram size={24} />,
-        url: "/instagram"
-    },
-    {
-        title: <AiFillLinkedin size={24} />,
-        url: "/linkedin"
+        title: <FaDiscord size={24} />,
+        url: "/discord"
     },
     {
         title: <AiFillYoutube size={24} />,
@@ -28,8 +29,8 @@ const socialIcons = [
         url: "/telegram"
     },
     {
-        title: <FaDiscord size={24} />,
-        url: "/discord"
-    },
+        title: <AiFillLinkedin size={24} />,
+        url: "/linkedin"
+    }
 ];
 export default socialIcons;
