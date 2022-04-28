@@ -8,6 +8,10 @@ import { TheRoadMap } from "../components/TheRoadMap";
 export default function Home() {
   return (
    <>
+     
+    <ThePurpleBicycle />
+    <TheSectionBgCover />
+    <TheWalkingGirl />
     
     <TheRoadMap />
      {/*<TheMeetTeam />*/}
