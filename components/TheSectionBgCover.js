@@ -46,7 +46,7 @@ export const TheSectionBgCover = () => {
                                               w-second-page-information-card-width
                                               ">
                                         <div className="mr-3 bg-second-page-information-box-exit-bg py-2.5 px-3" {...getCollapseProps()}>
-                                            <Image src={exit} width={60} height={60} />
+                                            <Image src={exit} width={60} height={60} alt="Background Cover" />
                                         </div>
                                         <div className="mb-12">
                                             <div className="mt-6">
@@ -60,7 +60,7 @@ export const TheSectionBgCover = () => {
                                         </div>
                                     </div>
                                         : <div className={`${(id!==item.id && isExpanded) ? "hidden" : ""}`}>
-                                            <Image src={place} />
+                                            <Image src={place} alt="Place" />
                                           </div>
                                     }
                                 </div>
