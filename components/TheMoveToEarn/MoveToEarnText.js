@@ -8,8 +8,8 @@ const MoveToEarnText = () => {
 
     function useWindowSize() {
         const [windowSize, setWindowSize] = useState({
-            width: undefined,
-            height: undefined,
+            width: 480,
+            height: 360,
         });
         useEffect(() => {
             // Handler to call on window resize
