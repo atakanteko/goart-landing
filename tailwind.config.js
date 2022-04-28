@@ -44,6 +44,10 @@ module.exports = {
         DEFAULT: "0.8rem",
       },
       spacing: {
+        "about-us-margin-top": "34.75rem",
+        "margin-top-for-sm-mobile":"24.3rem",
+        "margin-top-for-md-mobile":"34rem",
+        "margin-top-for-lg-mobile":"38rem",
         "waitList-margin-bottom":"12.6875rem",
         "waitList-social-icons-margin-right":"1.700rem",
         3: "0.813rem",
@@ -54,14 +58,18 @@ module.exports = {
         62: "3.875rem",
         "mobile-icons-space": "12rem",
         "mobile-icons-space-sm": "22rem",
-        "mobile-icons-responsive-margin-right": "1.9725rem",
       },
       backgroundImage: {
         "home-cover": 'url("../public/assets/images/move-to-earn-cover.png")',
-        "purple-bicycle": 'url("../public/assets/images/purple-bicycle-background.png")',
-        "about-us-mobile": 'url("../public/assets/images/about-us.png")',
+        "purple-bicycle": 'url("../public/assets/images/background-image-second-page-mobile.png")',
+        "about-us-new-bg": 'url("../public/assets/images/about-us-new-bg.png")',
+        "about-us-mobile": 'url("../public/assets/images/about-us-mobile.png")',
         "resp-home-cover": 'url("../public/assets/images/resp-home-bg.png")',
         "section-two-bg-cover": 'url("../public/assets/images/second-section-bg-cover.png")',
+        "gradient-content-card": 'linear-gradient(135deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.1) 100%)',
+        "home-page-btn-bg": 'linear-gradient(94.01deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 99.82%)',
+        "second-page-information-box-bg": 'linear-gradient(135deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.5) 100%)',
+        "second-page-information-box-exit-bg": 'linear-gradient(225deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.1) 100%);',
       },
       backgroundPosition: {
         "top-right-70": "top 70px right"
@@ -76,6 +84,7 @@ module.exports = {
         'waitList-text-xl': '43.75rem',
         'waitList-input-xl': '14.375rem',
         'about-btn-mobile-width': '9.4375rem',
+        'second-page-information-card-width': '47.0625rem',
 
         'waitList-width': '96rem',
         'waitList-input-width': '18.8125rem',
@@ -93,6 +102,8 @@ module.exports = {
         'waitList-input-height': '3.125rem',
         'waitList-btn': '3.125rem',
         'about-btn-mobile-height': '2.625rem',
+        'second-page-information-card-height': '22.375rem',
+
       }
     }
   },

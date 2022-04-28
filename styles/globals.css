@@ -3,6 +3,35 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer components {
+  .flex-important {
+    display: flex !important;
+  }
+  .about-top {
+    top: 625px;
+  }
+  .about-padding-top {
+    padding-top: 356px;
+  }
+  .about-top-xl {
+    top: 570px;
+  }
+  .avatar-info-width {
+    width: 704px;
+  }
+}
+
+@layer components {
+  .my-grid-xl {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+}
+
+}
+
 html,
 body {
   padding: 0;
