@@ -65,7 +65,7 @@ module.exports = {
         "about-us-new-bg": 'url("../public/assets/images/about-us-new-bg.png")',
         "about-us-mobile": 'url("../public/assets/images/about-us-mobile.png")',
         "resp-home-cover": 'url("../public/assets/images/resp-home-bg.png")',
-        "section-two-bg-cover": 'url("../public/assets/images/second-section-bg-cover.png")',
+        "section-two-bg-cover": 'url("/assets/images/second-section-bg-cover.png")',
         "gradient-content-card": 'linear-gradient(135deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.1) 100%)',
         "home-page-btn-bg": 'linear-gradient(94.01deg, rgba(255, 255, 255, 0.4) 0%, rgba(255, 255, 255, 0.1) 99.82%)',
         "second-page-information-box-bg": 'linear-gradient(135deg, rgba(255, 255, 255, 0.3) 0%, rgba(255, 255, 255, 0.5) 100%)',
