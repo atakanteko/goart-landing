@@ -16,7 +16,7 @@ const IconDisplay = ({type,width,height}) => {
         },
     ];
     return(
-        <div key={index} className="flex flex-row">
+        <div className="flex flex-row">
             {icons.map((item, index) => {
             return (
                 <div key={index} className="bg-home-page-btn-bg py-2 px-2 rounded-md w-38 h-10 flex flex-row items-center mr-4 last:mr-0">
