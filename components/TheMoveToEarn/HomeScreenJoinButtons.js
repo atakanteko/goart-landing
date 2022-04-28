@@ -64,9 +64,9 @@ const HomeScreenJoinButtons = () => {
 
 
             <div className="mb-32 z-30 ml-192 flex">
-                {icons.map((item, index) => {
+                {icons.map((item, i) => {
                     return (
-                        <div key={index} className="bg-home-page-btn-bg py-2 px-4 rounded-md  h-14 flex flex-row items-center mr-4 last:mr-0">
+                        <div key={i} className="bg-home-page-btn-bg py-2 px-4 rounded-md  h-14 flex flex-row items-center mr-4 last:mr-0">
                             <Image
                                 src={item.path}
                                 alt={item.alt}
