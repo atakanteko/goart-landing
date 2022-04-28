@@ -8,7 +8,7 @@ import { TheRoadMap } from "../components/TheRoadMap";
 export default function Home() {
   return (
    <>
-    <TheMoveToEarn />
+   
     <ThePurpleBicycle />
     <TheSectionBgCover />
     <TheWalkingGirl />
