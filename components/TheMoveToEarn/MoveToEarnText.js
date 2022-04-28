@@ -2,8 +2,6 @@ import Image from "next/image";
 import moveToEarn from "../../public/assets/images/website-first-screen/move-to-earn-text.svg";
 import moveToEarnMobile from "../../public/assets/images/website-first-screen/move-to-earn-mobile-text.svg";
 import {useEffect, useState} from "react";
-import IconDisplay from "./IconDisplay";
-import homeScreenJoinButtons from "../../public/static/home-screen-join-buttons";
 
 const MoveToEarnText = () => {
     const size = useWindowSize();
