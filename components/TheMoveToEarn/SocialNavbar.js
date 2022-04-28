@@ -4,7 +4,7 @@ import socialIcons from "../../public/static/social-icons";
 
 const SocialNavbar = () => {
     return (
-        <div className="mt-26 sm:hidden md:hidden lg:hidden">
+        <div className="mt-26 sm:hidden md:hidden lg:hidden z-30 mr-192">
             <nav>
                 <ul className="flex flex-row">
                     {socialIcons.map((item, index) => (

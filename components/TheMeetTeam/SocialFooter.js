@@ -3,7 +3,10 @@ import Link from "next/link";
 
 const SocialFooter = () => {
     return(
-        <div className="mt-24 mb-6 flex flex-col items-center xl:hidden">
+        <div className="sm:about-padding-top
+                        md:about-padding-top
+                        lg:pt-52
+                        pb-8 flex flex-col items-center xl:hidden">
             <div>
                 <ul className="flex flex-row">
                     {socialIcons.map((item, index) => (
